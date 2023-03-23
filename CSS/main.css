@@ -1,26 +1,56 @@
-.logo{
-  width: 100%;
-  background-color: lightgrey;
+nav{
+  width: 0%;
+  height: 0px;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0px;
 }
 
-ul{
+.active{
+  color: black;
+  background-color: cyan;
+}
+
+.logo{
+  float: left;
+  color: blueviolet;
+}
+
+.cta{
+  height: 40px;
+  width: 170px;
+  padding-top: 6px;
+  margin-top: 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.nav-con{
+  width: 520px;
+  height: 60px;
+  float: right;
+}
+
+nav ul{
   list-style: none;
 }
 
-li{
+nav li{
   border-radius: 5px;
   height: 35px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
-  float: left;
+  float: right;
   margin-left: 5px;
   margin-right: 5px;
   color: black;
-  background-color: white;
+  background-color: cyan;
 }
 
-li:hover{
+nav li:hover{
   color: white;
   background-color: grey;
 }
@@ -28,7 +58,15 @@ li:hover{
 header{
   width: 100%;
   height: 600px;
-  background-color: lightgrey;
+  background-image: url('../assets/logic_no_pressure_home_cover_image.png');
+  background-size: cover;
+  background-position: center;
+  padding-left: 10px;
+  padding-top: 150px;
+}
+
+body{
+  background-color: orangered;
 }
 
 section{
@@ -43,50 +81,138 @@ section{
   height: 170px;
 }
 
-.col-12{
-  width: 100%;
-  height: 100px;
-  background-color: gray;
+.intro{
+  width: 0%;
+  height: 0px;
+  background-color: grey;
   text-align: center;
+  padding-top: 0px;
   color: white;
 }
 
-.half{
-  height: 370px;
+.box {
+  background-color: rgba(128, 128, 128, 0.5); /* grey color with 50% transparency */
+  padding: 20px;
 }
 
-col-6{
-  width: 50%;
-  height: 300px;
-  background-color: gray;
-  text-align: center;
-  color: white;
-  float:left;
-  margin: 1%;
-}
-
-.col-4{
-  width: 31.33%;
+.col-21{
+  width: 23%;
   height: 250px;
-  background-color: gray;
+  background-image: url('../assets/blame_it_on_baby_album_cover.png');
+  background-color: rgb(193, 255, 127);
   text-align: center;
-  color: white;
-  float: left;
   margin: 1%;
+  float: left;
 }
 
-.quater{
-  height: 320px;
-}
-
-.col-3{
-  width: 25%;
+.col-22{
+  width: 23%;
   height: 250px;
-  background-color: gray;
+  background-image: url('../assets/circles_album_cover.png');
+  background-color: rgb(193, 255, 127);
   text-align: center;
-  color: white;
-  float: left;
   margin: 1%;
+  float: left;
+}
+
+.col-23{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/happy_thoughts_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-24{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/kanye_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-13{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/kod_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-14{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/logic_no_pressure_home_cover_image.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-15{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/low_end_theory_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-16{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/man_on_the_moon_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-17{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/music_to_be_murdered_by_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-18{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/my_favourite_mix_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-19{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/no_pressure_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
+}
+
+.col-20{
+  width: 23%;
+  height: 250px;
+  background-image: url('../assets/restoration_album_cover.png');
+  background-color: rgb(193, 255, 127);
+  text-align: center;
+  margin: 1%;
+  float: left;
 }
 
 footer{
