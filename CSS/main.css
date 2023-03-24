@@ -275,3 +275,29 @@ footer{
   color: black;
 }
 
+.favourites {
+  background-image: url("../assets/my_favourite_mix_album_cover.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 30%;
+  margin-top: 350px;
+  margin-left: 150px;
+  float: left;
+}
+
+.song {
+  margin-left: 20%;
+  padding: 20px;
+}
+
+ul-songlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li-songlist {
+  margin-top: 10px;
+  padding-right: 60px;
+}
