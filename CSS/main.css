@@ -28,17 +28,18 @@ nav{
 }
 
 .nav-con{
-  width: 520px;
+  width: 420px;
   height: 60px;
   float: right;
 }
 
-nav ul{
+ul{
   list-style: none;
 }
 
-nav li{
+li{
   border-radius: 5px;
+  width: 80px;
   height: 35px;
   padding-left: 20px;
   padding-right: 20px;
@@ -50,9 +51,9 @@ nav li{
   background-color: cyan;
 }
 
-nav li:hover{
+li:hover{
   color: white;
-  background-color: grey;
+  background-color: purple;
 }
 
 header{
@@ -216,5 +217,30 @@ section{
 }
 
 footer{
-
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 50px;
+  margin-top: 600px !important;
+  color: black;
+  background-color: orangered;
+  text-align: left;
 }
+
+.col-50-white{
+  
+}
+
+.col-50{
+  width: 40%;
+  height: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  margin-right: 122px;
+  margin-top: 175px;
+  background-color: grey;
+  color: black;
+}
+
