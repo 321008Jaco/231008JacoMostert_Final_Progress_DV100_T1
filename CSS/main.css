@@ -322,22 +322,22 @@ footer{
   background-image: url("../assets/my_favourite_mix_album_cover.png");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 400px;
   width: 30%;
   margin-top: 350px;
-  margin-left: 150px;
+  margin-left: 50px;
   float: left;
 }
 
 .song {
-  margin-left: 20%;
-  padding: 20px;
+  margin-left: 5%;
 }
 
 .playlist {
+  width: 55%;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-top: 350px;
+  margin-left: 100px;
 }
 
 
@@ -439,16 +439,16 @@ button{
 .inner-line{
   width: 30%;
   height: 5px;
-  background-color: crimson;
+  background-color: cyan;
 }
 
 .marker{
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: crimson;
+  background-color: cyan;
   margin: 0 auto;
-  margin-top: -12px;
+  margin-top: -22px;
   margin-left: 30%;
 }
 
@@ -473,26 +473,32 @@ button{
   margin: 0 auto;
 }
 
-form{
-  width: 400px;
-  height: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 5px;
+form-login{
+  width: 200px;
+  height: 700px;
+
 }
 
 .form{
   background-color: darkslategray;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 10px;
 }
 
-div {
-  margin-bottom: 10px;
-}
+
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 350px;
+  height: 10px;
+  clear: both;
+  position: relative;
 }
 
 input[type="text"],
@@ -513,7 +519,7 @@ select {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 5px;
@@ -524,5 +530,6 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: white;
+  color: black;
 }
