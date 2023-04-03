@@ -18,16 +18,19 @@
 <body>
 
     <nav>
+
+        <img src="../assets/LogoFinalDevelopment.png" width="50px" height="50px">
         <div class="logo"> <h3>Stream</h3> </div>
     
         <div class="nav-con">
     
           <ul>
-              <a href="index.html"><li class=active>Recent Realeases</li></a>
-              <a href="Pages/PopularAlbums.html"><li>Popular Albums</li></a>
-              <a href="Pages/AboutLabel.html"><li>About Label</li></a>
-              <a href="Pages/MyPlaylist.html"><li>My playlists</li></a>
-  
+
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../Pages/AboutLable.html">About Label</a></li>
+            <li><a href="../Pages/MyPlaylist.html">My Playlists</a></li>
+            <li><a href="#">Popular Albums</a></li>
+
           </ul>
   
           <form action="#" method="get">
@@ -71,26 +74,47 @@
            
             </div>
 
-            <div class="log">
+            <div class="form">
 
-                <h1>GET IN TOUCH</h1>
-        
-                <form>
-        
-                    <input class="input-el" type="text" placeholder="Your Name" required>
-        
-                    <input class="input-el" type="email" placeholder="Email Address" required>
-        
-                    <input class="input-el" type="password" placeholder="Create a Password" required>
-        
-                    <input class="input-el" type="password" placeholder="Re-enter Your Password" required>
-        
-                    <textarea class="input-el" placeholder="Leave a Comment" rows="4"></textarea>
-        
-                    <button class="input-el" type="submit">Continue</button>
-        
-                </form>
-        
+              <form>
+
+                <div>
+                  <label for="name">Your Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+  
+                <div>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+  
+                <div>
+                  <label for="password">Create Password:</label>
+                  <input type="password" id="password" name="password" required>
+                </div>
+  
+                <div>
+                  <label for="confirm-password">Re-enter Password:</label>
+                  <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+  
+                <div>
+                  <label for="list-item">List Item:</label>
+  
+                  <select id="list-item" name="list-item" required>
+  
+                    <option value="">Select an item</option>
+                    <option value="item1">Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+  
+                  </select>
+  
+                </div>
+  
+                <button type="submit">Submit</button>
+              </form>
+
             </div>
 
           </div>

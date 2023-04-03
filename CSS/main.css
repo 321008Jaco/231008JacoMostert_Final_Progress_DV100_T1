@@ -4,57 +4,52 @@ nav{
   padding-left: 0%;
   padding-right: 0%;
   padding-top: 0px;
+  background-color: transparent;
 }
 
 .active{
-  color: black;
-  background-color: cyan;
+  color: white;
 }
 
 .logo{
   float: left;
-  color: blueviolet;
-}
-
-.cta{
-  height: 40px;
-  width: 170px;
-  padding-top: 6px;
-  margin-top: 30px;
-  border: 2px solid gray;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: bolder;
+  color: blueviolet; 
 }
 
 .nav-con{
-  width: 420px;
+  width: 520px;
   height: 60px;
   float: right;
+  text-align: center;
 }
 
-ul{
+nav ul {
   list-style: none;
-
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
-li{
-  border-radius: 5px;
-  width: 80px;
-  height: 35px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  float: right;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: black;
-  background-color: cyan;
+nav ul li {
+  margin-right: 20px;
 }
 
-li:hover{
-  color: white;
-  background-color: purple;
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  background-color: #eee;
 }
 
 form {
@@ -73,8 +68,8 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-  background-color: cyan;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 10px 20px;
   margin-top: 50px;
   border: none;
@@ -85,7 +80,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: purple;
+  background-color: white;
+  color: black;
 }
 
 header{
@@ -96,6 +92,15 @@ header{
   background-position: center;
   padding-left: 10px;
   padding-top: 150px;
+}
+
+.cta{
+  width: 75px;
+  height: 35px;
+  border-radius: 5%;
+  color: white;
+  background-color: black;
+  margin-top: 5px;
 }
 
 body{
@@ -329,16 +334,13 @@ footer{
   padding: 20px;
 }
 
-ul-songlist {
-  list-style-type: none;
+.playlist {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-li-songlist {
-  margin-top: 10px;
-  padding-right: 60px;
-}
+
 
 .con-flu{
   float: right;
@@ -469,4 +471,58 @@ button{
   background-color: crimson;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+form{
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form{
+  background-color: darkslategray;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
 }
