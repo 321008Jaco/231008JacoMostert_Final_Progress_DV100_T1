@@ -448,7 +448,7 @@ button{
   border-radius: 50%;
   background-color: cyan;
   margin: 0 auto;
-  margin-top: -22px;
+  margin-top: -12px;
   margin-left: 30%;
 }
 
@@ -486,8 +486,6 @@ form-login{
   padding: 10px;
   padding-left: 10px;
 }
-
-
 
 label {
   display: block;
@@ -532,4 +530,25 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: white;
   color: black;
+}
+
+.table{
+  width: 600px;
+  margin-top: 350px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: orangered;
 }
